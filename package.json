@@ -1,6 +1,6 @@
 {
   "name": "reactapp",
-  "homepage": "https://webbbNerd.github.io/assessmentsite",
+  "homepage": "https://webbbNerd.github.io/assessment",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +11,7 @@
     "antd": "^5.7.0",
     "axios": "^0.24.0",
     "chokidar": "^3.5.3",
+    "gh-pages": "^6.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.6",

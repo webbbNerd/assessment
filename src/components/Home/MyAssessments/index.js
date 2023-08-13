@@ -76,16 +76,18 @@ function Report() {
     <div className="MyAssessment">
       <span className="Myassessmob">
         <p className="heading">My Assessment</p>
-        <span>
-          <img src={search} className="imgMob" alt="search" />
-          <img src={filter} className="imgMob" alt="filter" />
-          <img
-            src={bar}
-            onClick={toggleOverview}
-            className="imgMob"
-            alt="bar"
-          />
-        </span>
+        {window.innerWidth < 768 && (
+          <span>
+            <img src={search} className="imgMob" alt="search" />
+            <img src={filter} className="imgMob" alt="filter" />
+            <img
+              src={bar}
+              onClick={toggleOverview}
+              className="imgMob"
+              alt="bar"
+            />
+          </span>
+        )}
       </span>
 
       <div className="myassessmentCover">

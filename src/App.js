@@ -25,7 +25,7 @@ const MenuComponent = () => {
         key="1"
         icon={<img src={Dashboard} className="imgMenu" alt="Dashboard" />}
       >
-        <Link to="/" className="textMenu">
+        <Link to="/assessment/" className="textMenu">
           Dashboard
         </Link>
       </Menu.Item>
@@ -33,7 +33,7 @@ const MenuComponent = () => {
         key="2"
         icon={<img src={Assessment} className="imgMenu" alt="Assessment" />}
       >
-        <Link to="/" className="textMenu">
+        <Link to="/assessment/" className="textMenu">
           Assessment
         </Link>
       </Menu.Item>
@@ -41,7 +41,7 @@ const MenuComponent = () => {
         key="3"
         icon={<img src={Quiz} className="imgMenu" alt="Quiz" />}
       >
-        <Link to="/form" className="textMenu">
+        <Link to="/assessment/" className="textMenu">
           My Library
         </Link>
       </Menu.Item>
@@ -68,7 +68,7 @@ const MenuComponent = () => {
           />
         }
       >
-        <Link to="/" className="textMenu">
+        <Link to="/assessment/" className="textMenu">
           Round Status
         </Link>
       </Menu.Item>
@@ -121,9 +121,12 @@ function App() {
             <Layout style={{ background: "white" }}>
               <Content style={{}}>
                 <Routes>
-                  <Route path="/" element={<Navigate to="/home" />} />
-                  <Route path="/home" element={<HomePage />} />
-                  <Route path="/form" element={<Form />} />
+                  <Route
+                    path="/assessment/"
+                    element={<Navigate to="/assessment/home" />}
+                  />
+                  <Route path="/assessment/home" element={<HomePage />} />
+                  <Route path="/assessment/form" element={<Form />} />
                 </Routes>
               </Content>
             </Layout>
