@@ -1,0 +1,80 @@
+.App .ant-menu-title-content {
+  margin: 0 !important;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.App .ant-menu.ant-menu-root.ant-menu-vertical {
+  border: 0;
+}
+
+.App .ant-menu-item-icon {
+  margin: 0 auto;
+  display: block !important;
+}
+
+.App .ant-menu-item {
+  height: auto;
+  padding: 0;
+}
+
+.imgMenu {
+  margin-top: 10px !important;
+}
+
+.textMenu {
+  font-size: 12px;
+}
+
+body {
+  margin: 0;
+  background: white;
+}
+
+.trigger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .App .ant-menu-item-selected {
+    display: flex;
+    border: 1px solid;
+  }
+  .App .ant-menu-item {
+    display: flex;
+    gap: 10px;
+  }
+  .trigger {
+    background: white;
+    display: block;
+    position: absolute;
+    z-index: 1;
+  }
+  .imgMenu {
+    height: fit-content;
+    margin: 0;
+    margin-left: 10px !important;
+    margin-right: 10px;
+  }
+  .ant-menu-title-content {
+    text-align: inherit !important;
+  }
+  .cutMenu {
+    align-self: center;
+    font-weight: 500;
+    color: #1c4980;
+  }
+  .cuttrigger {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px 10px 20px;
+  }
+  .ant-layout-sider {
+    padding: 0 !important;
+  }
+
+  .MenuItem {
+    padding: 0px 20px 10px 20px;
+  }
+}

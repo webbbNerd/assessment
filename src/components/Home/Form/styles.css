@@ -1,0 +1,54 @@
+.formHeading label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1c4980 !important;
+}
+
+.ant-select-selector {
+  align-items: baseline !important;
+  height: 100px;
+}
+
+.selectAll .ant-select-selector {
+  border-radius: 8px 8px 0 0 !important;
+}
+
+.formHead .ant-col-16.ant-form-item-control {
+  max-width: 100%;
+}
+
+.buttonForm {
+  margin: 0;
+  padding: 20px 0 20px 0;
+}
+
+.buttonForm button {
+  width: 100%;
+  font-size: 16px;
+  height: auto;
+}
+
+.formHead .ant-select-selection-overflow {
+  border-radius: 22px;
+  padding: 6px 8px 6px 10px;
+  height: 30px;
+}
+.formHead .ant-select-selection-item {
+  padding: 6px 8px 6px 10px;
+  height: 30px;
+  background: #ddedff;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.formHead .ant-select-selection-item-content {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1c4980;
+}
+
+.formHead .ant-select-selection-item-remove {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1c4980;
+}
