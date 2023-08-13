@@ -37,6 +37,21 @@ body {
 }
 
 @media (max-width: 768px) {
+  /* .adminSider {
+    margin-top: 10px;
+    width: 40%;
+    float: right;
+    margin-top: 25px;
+  }
+  .App .li.ant-menu-item.roundstatus {
+    width: auto;
+  }
+  .App .li.ant-menu-item.roundstatus img {
+    margin: 0;
+  }
+  .App .li.ant-menu-item.roundstatus .ant-menu-title-content {
+    width: initial;
+  } */
   .App .ant-menu-item-selected {
     display: flex;
     border: 1px solid;

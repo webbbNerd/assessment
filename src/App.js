@@ -59,6 +59,7 @@ const MenuComponent = () => {
         <p style={{ color: "#D63500", fontSize: "12px" }}>Admin</p>
       </div>
       <Menu.Item
+        className="roundstatus"
         key="4"
         icon={
           <img
